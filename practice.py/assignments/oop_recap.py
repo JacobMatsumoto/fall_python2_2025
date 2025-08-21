@@ -34,7 +34,7 @@ class Book:
         self.__author = value
 
     def set_pages(self, value):
-        self._pages = value
+        self.__pages = value
 
     def print_details(self):  # prints the info
         print(f"{self.__title}, {self.__author}, {
@@ -58,13 +58,13 @@ def main():
     book2 = Book("Dune", "Frank Herbert", 412)
     book3 = Book("The Hobbit", "J.R.R. Tolkien", 320)
      
-    book1.print_details
-    book2.print_details
-    book3.print_details
+    book1.print_details()
+    book2.print_details()
+    book3.print_details()
 
-    book1.is_book_long
-    book2.is_book_long
-    book3.is_book_long
+    book1.is_book_long()
+    book2.is_book_long()
+    book3.is_book_long()
 
 
 main()
