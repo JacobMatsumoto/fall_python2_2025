@@ -62,7 +62,7 @@ class Dog:
 
 class WorkingDog(Dog):
     def __init__(self, average_weight, height_range, life_span, color, guide):
-        super.__init__(average_weight, height_range, life_span, color)
+        super().__init__(average_weight, height_range, life_span, color)
         self.guide  = guide
 
     def guide_blind(self):
@@ -71,7 +71,7 @@ class WorkingDog(Dog):
 
 class Hound(Dog):
     def __init__(self, average_weight, height_range, life_span, color, track):
-        super.__init__(average_weight, height_range, life_span, color)
+        super().__init__(average_weight, height_range, life_span, color)
         self.track = track
 
     def track_prey(self):
@@ -79,3 +79,12 @@ class Hound(Dog):
     
 
 
+def main(): #creates subclassed dogs and calls their functions
+    blood_hound = Hound(60, "15-18", "12 Years", "brown", "great")
+    golden_retriever = WorkingDog(80, "20-24", "11 Years", "gold", "fantastic")
+
+    print(f"Blood hound: {blood_hound.track_prey()}")
+    print(f"Golden retriever: {golden_retriever.guide_blind()}")
+
+
+main()
