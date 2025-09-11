@@ -1,4 +1,4 @@
-
+"""test area for files to mess around with them before moving it back over"""
 def conf_sign_ups(*people, **contacts):
     print("People attending:")
     for person in people:
