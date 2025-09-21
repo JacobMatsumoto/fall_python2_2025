@@ -1,4 +1,8 @@
+"""
+Calculator encapsulation class
 
+This file makes a basic calculator class and tests out it's functions.
+"""
 #TODO add some extra opporations, factorial maybe?
 class Calculator:
     "This Calculator class encapsulates some basic math opporations, you can make calculator objects and they can use the opporations"
