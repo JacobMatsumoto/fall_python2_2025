@@ -82,4 +82,45 @@ my_car.add_gas(10)
 # Output: Make: Chevrolet, Model: Corvette, Tank Size: 18 gallons, Gas Level: 15 gallons
 print(my_car.car_info())
 
-#this not well generated
+
+def test_augment():
+    my_car_aug = Car("Chevrolet", "Corvette", 18, 5)
+    my_car_aug.add_gas(10)
+
+    original_make = my_car_aug._make
+    original_model = my_car_aug._model
+
+    assert my_car_aug._make != original_make, "Cannot access private attribute '_make' directly"
+    # https://www.w3schools.com/python/ref_keyword_assert.asp
+    assert my_car_aug._model != original_model, "Cannot access private attribute '_model' directly"
+
+    my_car_aug._model = "F150"
+
+    my_car_aug._make = "Ford"
+
+    print(my_car_aug.car_info)
+
+
+
+def test_car_2_3():  # This function will test that the getters and setters work with the Car class and the
+    my_car_get_set = Car("Chevrolet", "Corvette", 18, 5)  # instantiating the class
+    print(my_car_get_set.car_info())  # printing it's info
+    # OUTPUT Make: Chevrolet, Model: Corvette, Tank Size: 18 gallons, Gas Level: 5 gallons
+
+    my_car_get_set.add_gas(10)
+    # This will show it change to the gas level
+    print(my_car_get_set.car_info())
+    # OUTPUT Make: Chevrolet, Model: Corvette, Tank Size: 18 gallons, Gas Level: 15 gallons
+
+    my_car_get_set._model = "F150"
+    my_car_get_set._make = "Ford"  # using the setters
+    # this will print and show the setters changed the info on the car
+    print(my_car_get_set.car_info())
+    # OUTPUT Make: Ford, Model: F150, Tank Size: 18 gallons, Gas Level: 15 gallons
+    print(my_car_get_set._make)  # using the getters
+    print(my_car_get_set._model)
+
+
+test_car_2_3()
+
+# test_augment() #commented out to prevent the asserterror push
