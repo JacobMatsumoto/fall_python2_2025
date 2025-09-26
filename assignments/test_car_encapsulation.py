@@ -123,4 +123,4 @@ def test_car_2_3():  # This function will test that the getters and setters work
 
 test_car_2_3()
 
-# test_augment() #commented out to prevent the asserterror push
+test_augment() #commented out to prevent the asserterror push
