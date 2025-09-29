@@ -447,7 +447,7 @@ class SmartHome:
                         f"\n\n-----Error! is not 1 or 2-----\n\n")
 
         except (ValueError):
-            print("Please enter 1-8")
+            print("Please enter 1-2")
 
         except Exception as e:
             print(f"An error has occured: {e}")
