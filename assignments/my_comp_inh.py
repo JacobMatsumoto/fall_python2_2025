@@ -136,7 +136,7 @@ class Thermometer(Device):
             if not isinstance(value, int):  # makes sure the entry is an int
                 raise TypeError
 
-            if not (1 <= value <= 90):  # makes sure it is between 1 and 90
+            if not (50 <= value <= 90):  # makes sure it is between 1 and 90
                 raise ValueError
 
             self._temp = value
@@ -523,7 +523,7 @@ def main():
 
             else:
                 print(
-                    f"\n\n-----Error! that is not a number between 1 and 7-----\n\n")
+                    f"\n\n-----Error! that is not a number between 1 and 9-----\n\n")
 
     except (ValueError):
         print("Please enter a number between 1-7")
