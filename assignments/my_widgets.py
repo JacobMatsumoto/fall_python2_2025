@@ -30,13 +30,13 @@ password = tk.Label(root, text="Password:")
 entry_password = tk.Entry(root, width=20)
 
 
-name.grid(row=0, padx=5, pady=5, column=0,)
+name.grid(row=0, padx=5, pady=5, column=0)
 entry_name.grid(row=0, padx=5, pady=5, column=1)
 
-email.grid(row=1, padx=5, pady=5, column=0,)
+email.grid(row=1, padx=5, pady=5, column=0)
 entry_email.grid(row=1, padx=5, pady=5, column=1)
 
-password.grid(row=2, padx=5, pady=5, column=0,)
+password.grid(row=2, padx=5, pady=5, column=0)
 entry_password.grid(row=2, padx=5, pady=5, column=1)
 
 
