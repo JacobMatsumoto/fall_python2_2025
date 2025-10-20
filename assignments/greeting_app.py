@@ -3,7 +3,7 @@ import tkinter as tk
 
 # Initialize the main window
 root = tk.Tk()
-root.title("Greeting App")
+root.title("Greetings")
 
 # Declare observable variables
 name_var = tk.StringVar()
@@ -11,10 +11,10 @@ age_var = tk.StringVar()
 message_var = tk.StringVar()
 
 # Create the user interface
-tk.Label(root, text="Name:").grid(row=0, column=0)
+tk.Label(root, text="Enter name:").grid(row=0, column=0)
 tk.Entry(root, textvariable=name_var).grid(row=0, column=1)
 
-tk.Label(root, text="Age:").grid(row=1, column=0)
+tk.Label(root, text="Enter age:").grid(row=1, column=0)
 tk.Entry(root, textvariable=age_var).grid(row=1, column=1)
 
 # Define the function to update the message
