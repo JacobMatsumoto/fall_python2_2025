@@ -58,6 +58,7 @@ BEST PRACTICES:
 - Choose appropriate type for the situation (error for errors, warning for warnings)
 - Don't overuse - too many popups annoy users
 - Always handle the return value for ask* functions
+
 """
 
 
@@ -1247,7 +1248,7 @@ class ObservableVariablesDemo:
         """
         This observer is triggered AUTOMATICALLY whenever string_var changes.
         The *args parameter is required but usually not used.
-        
+
         This is called when:
         - User types in the Entry widget
         - You call string_var.set() programmatically
