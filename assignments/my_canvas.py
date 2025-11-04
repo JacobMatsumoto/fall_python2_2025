@@ -5,7 +5,7 @@ root = tk.Tk()
 root.title("Christmas Tree Canvas")
 
 # Create a canvas with specified dimensions and background color
-canvas = tk.Canvas(root, width=400, height=400, bg='white', borderwidth=2)
+canvas = tk.Canvas(root, width=400, height=400, bg='grey', borderwidth=4)
 canvas.pack()
 
 # Draw the tree (triangle) list goes x0,y0,x1,y1,x2,y2 drawing the vertexes
