@@ -68,7 +68,6 @@ def process_json_file(file_path):
     if data is None:
         return
 
-    # Determine which demonstration function to use based on filename
     if 'example7' in filename:
         find_email_2(data, filename)
         find_room_num(data, filename)
