@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 20,
+      "courses": ["Math", "Science"],
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 21,
+      "courses": ["English", "History"],
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "age": 19,
+      "courses": ["Art", "Music"],
+      "active": false
+    }
+  ],
+  "products": [
+    {
+      "productId": "P001",
+      "name": "Laptop",
+      "price": 999.99,
+      "inStock": true
+    },
+    {
+      "productId": "P002",
+      "name": "Mouse",
+      "price": 29.99,
+      "inStock": false
+    }
+  ]
+}
+

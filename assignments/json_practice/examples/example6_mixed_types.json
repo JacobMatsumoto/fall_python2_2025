@@ -1,0 +1,100 @@
+{
+  "store": {
+    "name": "Tech Store",
+    "location": {
+      "address": "456 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "categories": [
+      {
+        "categoryId": "C001",
+        "name": "Computers",
+        "products": [
+          {
+            "productId": "P101",
+            "name": "Gaming Laptop",
+            "price": 1299.99,
+            "currency": "USD",
+            "inStock": true,
+            "specifications": {
+              "processor": "Intel i7",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "graphics": "NVIDIA RTX 3060"
+            },
+            "reviews": [
+              {
+                "rating": 5,
+                "comment": "Excellent laptop!",
+                "user": "customer1",
+                "verified": true,
+                "helpful": 12
+              },
+              {
+                "rating": 4,
+                "comment": "Good performance",
+                "user": "customer2",
+                "verified": true,
+                "helpful": 8
+              }
+            ],
+            "tags": ["gaming", "high-performance", "laptop"]
+          }
+        ],
+        "subcategories": ["Laptops", "Desktops", "Accessories"]
+      },
+      {
+        "categoryId": "C002",
+        "name": "Phones",
+        "products": [
+          {
+            "productId": "P201",
+            "name": "Smartphone Pro",
+            "price": 899.99,
+            "currency": "USD",
+            "inStock": false,
+            "specifications": {
+              "screen": "6.5 inch",
+              "storage": "128GB",
+              "camera": "48MP"
+            },
+            "reviews": [],
+            "tags": ["smartphone", "mobile"]
+          }
+        ],
+        "subcategories": ["Android", "iOS"]
+      }
+    ],
+    "hours": {
+      "monday": "9:00-18:00",
+      "tuesday": "9:00-18:00",
+      "wednesday": "9:00-18:00",
+      "thursday": "9:00-18:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-16:00",
+      "sunday": null
+    },
+    "contact": {
+      "phone": "555-1234",
+      "email": "info@techstore.com",
+      "socialMedia": {
+        "twitter": "@techstore",
+        "facebook": "TechStoreOfficial",
+        "instagram": "techstore"
+      }
+    },
+    "stats": {
+      "totalProducts": 150,
+      "totalCategories": 5,
+      "averageRating": 4.5,
+      "totalSales": 12500,
+      "isOpen": true
+    }
+  }
+}
+

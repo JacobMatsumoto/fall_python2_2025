@@ -1,0 +1,262 @@
+{
+  "school": {
+    "name": "Tech Academy High School",
+    "address": {
+      "street": "123 Education Boulevard",
+      "city": "Springfield",
+      "state": "IL",
+      "zipCode": "62701",
+      "coordinates": {
+        "latitude": 39.7817,
+        "longitude": -89.6501
+      }
+    },
+    "contact": {
+      "phone": "555-0100",
+      "email": "info@techacademy.edu",
+      "website": "www.techacademy.edu"
+    },
+    "departments": [
+      {
+        "departmentId": "D001",
+        "name": "Computer Science",
+        "head": {
+          "teacherId": "T101",
+          "firstName": "Dr. Sarah",
+          "lastName": "Johnson",
+          "email": "sarah.johnson@techacademy.edu",
+          "office": {
+            "building": "Science Hall",
+            "room": "SH-205",
+            "phone": "555-0201"
+          },
+          "qualifications": ["PhD Computer Science", "MSc Software Engineering"]
+        },
+        "courses": [
+          {
+            "courseId": "CS101",
+            "name": "Introduction to Programming",
+            "credits": 3,
+            "instructor": {
+              "teacherId": "T102",
+              "firstName": "Michael",
+              "lastName": "Chen",
+              "email": "michael.chen@techacademy.edu"
+            },
+            "students": [
+              {
+                "studentId": "S001",
+                "firstName": "Emma",
+                "lastName": "Williams",
+                "email": "emma.williams@student.techacademy.edu",
+                "grades": {
+                  "midterm": 92,
+                  "final": 88,
+                  "assignments": [85, 90, 87, 93],
+                  "participation": 95
+                },
+                "enrollmentDate": "2024-01-15"
+              },
+              {
+                "studentId": "S002",
+                "firstName": "James",
+                "lastName": "Brown",
+                "email": "james.brown@student.techacademy.edu",
+                "grades": {
+                  "midterm": 78,
+                  "final": 85,
+                  "assignments": [80, 82, 79, 88],
+                  "participation": 90
+                },
+                "enrollmentDate": "2024-01-15"
+              },
+              {
+                "studentId": "S003",
+                "firstName": "Olivia",
+                "lastName": "Davis",
+                "email": "olivia.davis@student.techacademy.edu",
+                "grades": {
+                  "midterm": 95,
+                  "final": 98,
+                  "assignments": [96, 94, 97, 99],
+                  "participation": 100
+                },
+                "enrollmentDate": "2024-01-15"
+              }
+            ]
+          },
+          {
+            "courseId": "CS201",
+            "name": "Data Structures and Algorithms",
+            "credits": 4,
+            "instructor": {
+              "teacherId": "T103",
+              "firstName": "David",
+              "lastName": "Martinez",
+              "email": "david.martinez@techacademy.edu"
+            },
+            "students": [
+              {
+                "studentId": "S004",
+                "firstName": "Noah",
+                "lastName": "Miller",
+                "email": "noah.miller@student.techacademy.edu",
+                "grades": {
+                  "midterm": 88,
+                  "final": 91,
+                  "assignments": [85, 89, 92, 90],
+                  "participation": 93
+                },
+                "enrollmentDate": "2024-01-15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "departmentId": "D002",
+        "name": "Mathematics",
+        "head": {
+          "teacherId": "T201",
+          "firstName": "Dr. Patricia",
+          "lastName": "Anderson",
+          "email": "patricia.anderson@techacademy.edu",
+          "office": {
+            "building": "Math Building",
+            "room": "MB-101",
+            "phone": "555-0301"
+          },
+          "qualifications": ["PhD Mathematics", "MSc Applied Math"]
+        },
+        "courses": [
+          {
+            "courseId": "MATH201",
+            "name": "Calculus I",
+            "credits": 4,
+            "instructor": {
+              "teacherId": "T202",
+              "firstName": "Robert",
+              "lastName": "Taylor",
+              "email": "robert.taylor@techacademy.edu"
+            },
+            "students": [
+              {
+                "studentId": "S005",
+                "firstName": "Sophia",
+                "lastName": "Wilson",
+                "email": "sophia.wilson@student.techacademy.edu",
+                "grades": {
+                  "midterm": 90,
+                  "final": 94,
+                  "assignments": [88, 92, 89, 95],
+                  "participation": 96
+                },
+                "enrollmentDate": "2024-01-15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "library": {
+      "name": "Tech Academy Library",
+      "books": [
+        {
+          "bookId": "B001",
+          "title": "Python Programming Guide",
+          "author": "John Smith",
+          "isbn": "978-0123456789",
+          "category": "Programming",
+          "available": true,
+          "reviews": [
+            {
+              "reviewId": "R001",
+              "rating": 5,
+              "comment": "Excellent introduction to Python!",
+              "reviewer": "student001",
+              "date": "2024-01-10"
+            },
+            {
+              "reviewId": "R002",
+              "rating": 4,
+              "comment": "Good for beginners, needs more advanced topics",
+              "reviewer": "student002",
+              "date": "2024-01-12"
+            }
+          ],
+          "price": 49.99
+        },
+        {
+          "bookId": "B002",
+          "title": "Advanced Algorithms",
+          "author": "Jane Doe",
+          "isbn": "978-0987654321",
+          "category": "Computer Science",
+          "available": false,
+          "reviews": [
+            {
+              "reviewId": "R003",
+              "rating": 5,
+              "comment": "Comprehensive coverage of algorithms",
+              "reviewer": "teacher001",
+              "date": "2024-01-08"
+            }
+          ],
+          "price": 79.99
+        },
+        {
+          "bookId": "B003",
+          "title": "Web Development Fundamentals",
+          "author": "Alex Johnson",
+          "isbn": "978-1122334455",
+          "category": "Web Development",
+          "available": true,
+          "reviews": [],
+          "price": 59.99
+        }
+      ]
+    },
+    "events": [
+      {
+        "eventId": "E001",
+        "name": "Science Fair 2024",
+        "date": "2024-03-15",
+        "location": {
+          "building": "Main Hall",
+          "room": "Auditorium",
+          "capacity": 500
+        },
+        "organizer": {
+          "teacherId": "T101",
+          "name": "Dr. Sarah Johnson"
+        },
+        "participants": 45,
+        "status": "upcoming"
+      },
+      {
+        "eventId": "E002",
+        "name": "Programming Competition",
+        "date": "2024-04-20",
+        "location": {
+          "building": "Computer Lab",
+          "room": "CL-101",
+          "capacity": 30
+        },
+        "organizer": {
+          "teacherId": "T103",
+          "name": "David Martinez"
+        },
+        "participants": 28,
+        "status": "upcoming"
+      }
+    ],
+    "statistics": {
+      "totalStudents": 125,
+      "totalTeachers": 15,
+      "totalCourses": 8,
+      "averageClassSize": 18.5,
+      "graduationRate": 0.95
+    }
+  }
+}
+

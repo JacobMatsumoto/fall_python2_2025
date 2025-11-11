@@ -1,0 +1,13 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "height": 5.9,
+  "isStudent": false,
+  "isActive": true,
+  "phoneNumber": null,
+  "email": "john@example.com",
+  "score": 85.5,
+  "temperature": -10,
+  "balance": 0
+}
+
