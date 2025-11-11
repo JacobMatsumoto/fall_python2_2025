@@ -68,11 +68,12 @@ def process_json_file(file_path):
     if data is None:
         return
 
-    if 'example7' in filename:
-        find_email_2(data, filename)
-        find_room_num(data, filename)
-        find_comment(data, filename)
-        find_price_book_2(data, filename)
-        find_event_2_building(data, filename)
+
+    find_email_2(data, filename)
+    find_room_num(data, filename)
+    find_comment(data, filename)
+    find_price_book_2(data, filename)
+    find_event_2_building(data, filename)
+
 
 process_json_file("example7_assignment.json")
